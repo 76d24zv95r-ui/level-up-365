@@ -31,6 +31,7 @@
     <section id="today" class="page active">
       <div class="sectionhead"><div><div class="eyebrow">ФОКУС НА СЕГОДНЯ</div><h2>Твои задачи</h2></div><button class="iconbtn" id="quickAdd" aria-label="Добавить задачу">＋</button></div>
       <div class="summary card"><div><strong id="doneCount">0</strong><span class="muted"> выполнено</span></div><span id="taskCount" class="muted small">из 0 задач</span></div>
+      <div id="planNote" class="plan-note"></div>
       <div class="bar taskbar"><i id="taskBar"></i></div>
       <div id="todayTasks" class="tasklist"></div>
       <button class="wide secondary" id="toTasks">Управлять задачами</button>
@@ -40,7 +41,7 @@
       <div class="sectionhead"><div><div class="eyebrow">ПЛАНИРОВАНИЕ</div><h2>Все задачи</h2></div></div>
       <form id="taskForm" class="card form">
         <label for="taskName">Новая задача</label><input id="taskName" maxlength="90" placeholder="Например, 20 минут английского" required>
-        <div class="formrow"><select id="taskCategory"><option>Тело</option><option>Деньги</option><option>Интеллект</option><option>Ментальное состояние</option><option>Личное</option></select><button class="primary" type="submit">Добавить</button></div>
+        <div class="formrow"><select id="taskCategory"><option>Тело</option><option>Деньги</option><option>Интеллект</option><option>Ментальное состояние</option><option>Навыки</option><option>Личное</option></select><button class="primary" type="submit">Добавить</button></div>
       </form>
       <div id="allTasks" class="tasklist"></div>
     </section>
